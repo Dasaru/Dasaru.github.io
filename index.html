@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cat Gallery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&text=Close" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+
+<button id="fetchBtn" class="disabled">
+	<i class="fas fa-sync-alt fa-3x"></i><span>Refresh</span>
+</button>
+
+<div class="loading">
+	<div class="spinner"></div>
+	<p class="loadMsg">Loading...</p>
+</div>
+
+<img id="tooltip" class="hide" src="">
+
+<div id="popup" class="dim hide">
+	<div id="bigImage">
+		<img class="bigImage-pic" src="">
+		<button class="bigImage-close">Close</button>
+		<div class="closeBox"></div>
+	</div>
+</div>
+
+<div id="gallery"></div>
+
+<script type="text/javascript" src="gallery.js"></script>
+</body>
+</html>
