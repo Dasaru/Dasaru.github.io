@@ -1,0 +1,232 @@
+/* ------------- */
+/* Universal CSS */
+/* ------------- */
+
+body, html {
+	margin: 0;
+}
+
+body {
+	font-family: 'Verdana', 'Geneva', sans-serif;
+}
+
+hr {
+	border: 1px solid rgb(180, 30, 46);
+	margin: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: rgb(180, 30, 46);
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: black;
+}
+
+button, input[type="submit"] {
+	cursor: pointer;
+}
+
+.clear-both {
+	clear: both;
+}
+
+div.sticky {
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+/* ---------- */
+/* Index.html */
+/* ---------- */
+
+#preview-food {
+	display: block;
+	margin: 0 auto;
+	height: 500px;
+}
+
+#preview-box {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#left-preview, #right-preview {
+	background-color: rgb(180, 30, 46);
+	width: 100px;
+	height: 500px;
+}
+
+#right-preview {
+	float: right;
+	justify-self: end;
+}
+
+.ad-banner {
+	display:block;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.preview-container {
+	position: relative;
+}
+
+.preview-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 5px;
+	letter-spacing: 1.3pt;
+	word-spacing: 3pt;
+}
+
+.driver-content {
+	margin: 30px 50px 10px;
+}
+
+.driver-content form {
+	margin-left: 20px;
+}
+
+.driver-content input[type="text"] {
+	height: 30px;
+	font-size: 1.5em;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.driver-content input[type="submit"] {
+	width: 100px;
+	height: 40px;
+	font-size: 1.5em;
+	color: white;
+	background-color: rgb(180, 30, 46);
+	border: 1px solid black;
+	border-radius: 7px;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.driver-content input[type="submit"]:hover {
+	background-color: rgb(200, 50, 66);
+	color: white;
+}
+
+.driver-content h1 {
+	font-size: 1.5em;
+}
+
+.fa-arrow-right {
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+
+.footer ul {
+	float: left;
+	width: 30%;
+	list-style: none;
+}
+
+.footer li {
+	padding: 5px 40px;
+}
+
+.footer {
+	padding-bottom: 140px;
+}
+
+/* ------------- */
+/* Register.html */
+/* ------------- */
+
+.register-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 20px;
+	column-gap: 20px;
+	padding: 20px;
+}
+
+.register-title {
+	text-align: center;
+	font-size: 2.5em;
+	margin: 20px;
+}
+
+.register-form fieldset {
+	border: none;
+}
+
+.register-form form {
+	margin: 0 auto;
+	padding: 30px;
+	width: 700px;
+	padding: 25px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.register-form p {
+	text-align: center;
+	margin: 60px 30px 30px 30px;
+}
+
+.register-form input {
+	padding: 10px;
+	margin: 5px;
+}
+
+.register-form button[type="submit"] {
+	margin-left: 20px;
+	height: 40px;
+	width: 150px;
+	font-size: 1.2em;
+	padding-bottom: 3px;
+	color: white;
+	background-color: rgb(180, 30, 46);
+	border: 1px solid black;
+	border-radius: 7px;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.register-form button[type="submit"]:hover {
+	background-color: rgb(200, 50, 66);
+	color: white;
+}
+
+/* ---------- */
+/* About.html */
+/* ---------- */
+
+.about-desc {
+	text-align: center;
+}
+
+/* --------------- */
+/* Nav and Footers */
+/* --------------- */
+
+.nav-links {
+	float: right;
+	margin: 30px 40px;
+}
