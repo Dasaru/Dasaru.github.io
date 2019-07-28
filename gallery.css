@@ -62,7 +62,7 @@ body {
 	grid-template-rows: 9fr 1fr;
 	justify-items: center;
 	background: rgb(128,172,222);
-background: radial-gradient(circle, rgba(128,172,222,1) 0%, rgba(164,196,233,1) 46%, rgba(128,172,222,1) 100%);
+	background: radial-gradient(circle, rgba(128,172,222,1) 0%, rgba(164,196,233,1) 46%, rgba(128,172,222,1) 100%);
 	width: 80%;
 	height: 80%;
 	max-width: 800px;
@@ -137,11 +137,11 @@ background: radial-gradient(circle, rgba(128,172,222,1) 0%, rgba(164,196,233,1) 
 
 .loading .spinner {
 	border: 7px solid #aaa;
-  border-top: 7px solid #000;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  animation: spin 1s linear infinite;
+	border-top: 7px solid #000;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	animation: spin 1s linear infinite;
 }
 
 .loading .loadMsg {
@@ -151,7 +151,7 @@ background: radial-gradient(circle, rgba(128,172,222,1) 0%, rgba(164,196,233,1) 
 
 #fetchBtn {
 	display: flex;
-  align-items: center;
+	align-items: center;
 	justify-content: center;
 	background-color: var(--btn-color);
 	margin: 20px auto;
